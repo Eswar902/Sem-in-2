@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Admin login{% endblock %}
+{% block body %}
+<main class="login">
+  <form method="post" class="card">
+    <h1>Admin login</h1>
+    <p class="muted">Sign in to manage student records.</p>
+    <label>Username <input name="username" required autofocus></label>
+    <label>Password <input name="password" type="password" required></label>
+    <button class="btn">Sign in</button>
+  </form>
+</main>
+{% endblock %}
